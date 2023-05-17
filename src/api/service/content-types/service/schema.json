@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "Service",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tag": {
+      "type": "string"
+    },
+    "hourPrice": {
+      "type": "decimal"
+    },
+    "t35": {
+      "type": "integer"
+    },
+    "t75": {
+      "type": "integer"
+    },
+    "workers": {
+      "type": "integer"
+    },
+    "includedHours": {
+      "type": "integer"
+    },
+    "sum": {
+      "type": "decimal"
+    },
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    }
+  }
+}

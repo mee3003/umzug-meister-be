@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "furnitures",
+  "info": {
+    "singularName": "furniture",
+    "pluralName": "furnitures",
+    "displayName": "Furniture"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "categoryRefs": {
+      "type": "json"
+    },
+    "volume": {
+      "type": "decimal"
+    },
+    "sortOrder": {
+      "type": "integer"
+    },
+    "step": {
+      "type": "decimal"
+    }
+  }
+}

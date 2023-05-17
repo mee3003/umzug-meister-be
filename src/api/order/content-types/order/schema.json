@@ -1,0 +1,111 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "Order"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "src": {
+      "type": "string"
+    },
+    "rid": {
+      "type": "string"
+    },
+    "customer": {
+      "type": "json"
+    },
+    "date": {
+      "type": "date"
+    },
+    "date_from": {
+      "type": "date"
+    },
+    "date_to": {
+      "type": "date"
+    },
+    "isDateFix": {
+      "type": "boolean"
+    },
+    "from": {
+      "type": "json"
+    },
+    "to": {
+      "type": "json"
+    },
+    "distance": {
+      "type": "decimal"
+    },
+    "leistungen": {
+      "type": "json"
+    },
+    "services": {
+      "type": "json"
+    },
+    "items": {
+      "type": "json"
+    },
+    "workersNumber": {
+      "type": "integer"
+    },
+    "transporterNumber": {
+      "type": "integer"
+    },
+    "t75": {
+      "type": "integer"
+    },
+    "boxNumber": {
+      "type": "integer"
+    },
+    "text": {
+      "type": "text"
+    },
+    "disposalText": {
+      "type": "text"
+    },
+    "time": {
+      "type": "string"
+    },
+    "expensiveText": {
+      "type": "text"
+    },
+    "images": {
+      "type": "json"
+    },
+    "prices": {
+      "type": "json"
+    },
+    "discount": {
+      "type": "decimal"
+    },
+    "discountValue": {
+      "type": "decimal"
+    },
+    "rideCosts": {
+      "type": "decimal"
+    },
+    "volume": {
+      "type": "decimal"
+    },
+    "sum": {
+      "type": "decimal"
+    },
+    "timeBased": {
+      "type": "json"
+    },
+    "ownItems": {
+      "type": "text"
+    },
+    "rechnung": {
+      "type": "json"
+    },
+    "gutschrift": {
+      "type": "json"
+    }
+  }
+}
